@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.header div {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+/*.header-content {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}*/
