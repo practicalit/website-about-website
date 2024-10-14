@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <style>
+        div {
+            color: yellowgreen;
+            font-size: 20px;
+            border: 1px red dashed;
+            font-weight: bold;
+        }
+
+        #div1 {
+            border: blue 1px dashed;
+        }
+        .rule {
+            background-color: rgb(233, 233, 232);
+            border: 1px solid brown;
+            border-radius: 8px;
+            padding: 5px;
+            /* margin-top: 5px;
+            margin-bottom: 5px; */
+            /* margin: 5px 10px 15px 20px; */
+            margin: 5px 0px;
+        }
+        .layout-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        #divfirst {
+            width: 50%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #divsecond {
+            width: 20%;
+        }
+        #divthree {
+            width: 20%;
+        }
+        #divfour {
+            width: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- html structure-->
+    <p id="paragraph" class="rule">Hello there.</p>
+    <h2>Here you go</h2>
+
+    <a href="https://thepracticalit.com">Practical IT</a>
+    <!-- <img src="https://cdn.pixabay.com/photo/2024/09/23/05/54/wave-9067749_640.jpg" /> -->
+
+    <form>
+        <div id="div1">
+            First name <input type="text" />
+        </div>
+        <div id="div2">
+            Diploma  <input name="levelofedu" type="radio" />
+            Degree  <input type="radio" name="levelofedu" />
+            Msc  <input type="radio" name="levelofedu" />
+            PhD  <input type="radio" name="levelofedu"/>
+        </div>
+        <div>
+            Checkbox <input type="checkbox" />
+        </div>
+        <div>
+            Select state <select>
+                <option>NY</option>
+                <option>KY</option>
+                <option>MN</option>
+                <option>VA</option>
+                <option>WA</option>
+            </select>
+        </div>
+        <div class="rule">
+            Your comment <textarea rows="12" cols="30"></textarea>
+        </div>
+
+        <div>
+            Your resume <input type="file" />
+        </div>
+    </form>
+    <div>
+        <p>This is the paragraph</p>
+        <img src="" id="image" />
+    </div>  
+    <!-- comment -->
+    <div class="layout-container">
+        <div id="divfirst">First content here</div>
+        <div id="divtwo">Second content here</div>
+        <div id="divthree">Third content here</div>
+        <div id="divfour">Third content here</div>
+    </div>
+
+    <!-- specifically for the form elements -->
+    <input type="text"/>
+
+    <textarea>
+
+    </textarea>
+    <select>
+        <option>one</option>
+        <option>one</option>
+        <option>one</option>
+    </select>
+    <button>Hello</button>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="lemlem.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <div class="profile">
+            <h1 id="name">Lemlem Folla</h1>
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQFQDgrkMabBFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718339215276?e=2147483647&v=beta&t=TtLqDFWYcU05ZeSgbnMDfXsgIEhBTdKOe_Rvf860fOQ"
+                alt="Profile Photo" width="100">
+        </div>
+        <p id="city">I live in Silver Spring. It is located on Georgia Avenue just two blocks from the Silver Spring
+            MARC station. Downtown Silver Spring combines a vibrant, laid-back atmosphere with an eclectic mix of
+            dining, shopping, and entertainment for the Silver Spring area.</p>
+        <p id="programming" class="text-red-500 font-bold">I am interested in web development because web developers can
+            make a positive impact on the world by creating apps that help people or machine-learning models to predict
+            disease outbreaks.</p>
+        <h3 id="career">IT careers I am considering</h3>
+        <table border="1" width="100%">
+            <tr>
+                <th>Career</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Web Developer</td>
+                <td>Develops and designs websites.</td>
+            </tr>
+            <tr>
+                <td>Data Analyst</td>
+                <td>Analyzes data to help businesses.</td>
+            </tr>
+            <tr>
+                <td>Cybersecurity Expert</td>
+                <td>Protects systems from cyber threats.</td>
+            </tr>
+        </table>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="california">California</option>
+                <option value="texas">Texas</option>
+                <option value="newyork">New York</option>
+                <option value="maryland">Maryland</option>
+                <option value="virginia">Virginia</option>
+                <option value="washington-dc">Washington DC</option>
+            </select><br><br>
+            <label>Highest Level of Education:</label><br>
+            <input type="radio" id="highschool" name="education" value="highschool">
+            <label for="highschool">High School</label><br>
+            <input type="radio" id="bachelor" name="education" value="bachelor">
+            <label for="bachelor">Bachelor's Degree</label><br>
+            <input type="radio" id="master" name="education" value="master">
+            <label for="master">Master's Degree</label><br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <footer>
+            <p>&copy; 2024</p>
+        </footer>
+    </section>
+</body>
+
+</html>

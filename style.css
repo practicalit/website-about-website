@@ -54,7 +54,7 @@ html, body {
 }*/
 
 .lower-row {
-    background-color: #F7890C;
+    /* background-color: #F7890C; */
     margin-top: 10px;
     padding-left: 5px;
     display: flex;
@@ -63,15 +63,16 @@ html, body {
 }
 
 .lower-left{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #999999;
 }
 .lower-right {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 68%;
     display: flex;
     flex-direction: column;
@@ -79,8 +80,17 @@ html, body {
 }
 
 .lower-right section {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 50px;
     display: flex;
     align-items: center;
+}
+.right-one {
+    background-color: #AEAEDE;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-two {
+    background-color: #599EDE;
 }
